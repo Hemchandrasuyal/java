@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch lottery",
+      "request": "launch",
+      "mainClass": "lottery",
+      "projectName": "java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Coin",
+      "request": "launch",
+      "mainClass": "Coin",
+      "projectName": "java"
+    },
+    {
+      "type": "java",
+      "name": "Launch Rational",
+      "request": "launch",
+      "mainClass": "Rational",
+      "projectName": "java"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\Users\\HP LAPTOP\\Desktop\\docs\\java",
+      "environment": [],
+      "program": "c:\\Users\\HP LAPTOP\\Desktop\\docs\\java\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
